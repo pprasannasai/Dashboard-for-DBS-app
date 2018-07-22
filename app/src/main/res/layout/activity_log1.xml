@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TableLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/table"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Log1">
+
+    <TableRow android:id="@+id/row">
+
+        <TextView
+            android:layout_column="1"
+            android:padding="3dip"
+            android:text="S.No" />
+
+        <TextView
+            android:gravity="center"
+            android:padding="3dip"
+            android:text="User name" />
+
+        <TextView
+            android:gravity="right"
+            android:padding="3dip"
+            android:text="Account number" />
+    </TableRow>
+
+    <TableRow android:id="@+id/row1">
+
+        <TextView
+            android:layout_column="1"
+            android:padding="3dip"
+            android:text="1" />
+
+        <TextView
+            android:gravity="center"
+            android:padding="3dip"
+            android:text="Pavan" />
+
+        <TextView
+            android:gravity="right"
+            android:padding="3dip"
+            android:text="12199611 " />
+
+        <Button
+            android:id="@+id/button1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text=">" />
+
+    </TableRow>
+
+    <TableRow android:id="@+id/row2">
+
+        <TextView
+            android:layout_column="1"
+            android:padding="3dip"
+            android:text="2" />
+
+        <TextView
+            android:gravity="center"
+            android:padding="3dip"
+            android:text="Vyshu" />
+
+        <TextView
+            android:gravity="right"
+            android:padding="3dip"
+            android:text="30199910" />
+
+        <Button
+            android:id="@+id/button2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text=">" />
+    </TableRow>
+
+</TableLayout>
